@@ -1,5 +1,5 @@
 import React from 'react'
-import './AppContainer'
+import './AppContainer.css'
 
 const AppContainer = ({children}) => {
     return (
