@@ -1,7 +1,7 @@
 import React from 'react'
 import Styled from 'styled-components'
 import content from './Content.json'
-import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
+import { FaLinkedinIn, FaGithub, FaEnvelope } from 'react-icons/fa'
 
 const StyledApp = Styled.div`
     min-height: 100vh;
@@ -54,6 +54,9 @@ const Landing = () => {
                 </a>
                 <a href="https://github.com/danerkestey" target="_blank" rel="noreferrer">
                     <FaGithub size="2em" color="white"/>
+                </a>
+                <a href="mailto:danerkyasin@gmail.com">
+                    <FaEnvelope size="2em" color="white"/>
                 </a>
             </SocialBar>
         </StyledApp>
