@@ -4,10 +4,13 @@ import content from './Content.json'
 import { FaLinkedinIn, FaGithub, FaEnvelope } from 'react-icons/fa'
 
 const StyledApp = Styled.div`
-    min-height: 100vh;
-    min-width: 100vw;
-    background-color: #14213D;
+    width: 100%;
+    gap: 2em;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 `
 
 const StyledNav = Styled.div`
@@ -28,7 +31,9 @@ const SocialBar = Styled.div`
 const StyledDescription = Styled.div`
     display: flex;
     flex-direction: column;
-    padding: 10em 25em 0 25em;
+
+    width: 75%;
+    height: 100%;
 `
 
 const Landing = () => {
